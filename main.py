@@ -44,4 +44,3 @@ except Exception as e:
 finally:
     db.close()
 start()
-#poo
