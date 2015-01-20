@@ -36,14 +36,16 @@ def rundmc(look,jumble_,words):
     os.system('clear')
   
     jumbled_word = jumble(word,jumble_)
-    print("please correct the errors %s" %(jumbled_word))
+    print("please correct the errors:: %s" %(jumbled_word))
     user_ans = input("::")
     if user_ans == word:
       #place holder for jims variable
       print("#MAGIC BEANS")
+      time.sleep(2)
       os.system("clear")
     else:
       print("nope")
+      time.sleep(2)
       os.system("clear")
     
     counter +=1
